@@ -263,7 +263,7 @@ function sploit_main() {
             return false;
         }
         if(!sploit_init()) {
-            puts('Vui lòng trượt đến khi được thông báo "SpringBoard"');
+            puts('Vui lòng trượt đến khi được thông báo "SpringBoard" hoặc màng hình trắng.');
             return false;
         }
 
