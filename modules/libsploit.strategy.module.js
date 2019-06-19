@@ -69,7 +69,7 @@ function supported_osversion() {
 //returns whether the exploit needs offsets for the client device
 function needs_offsets() {
     var device = current_device();
-    return device.OSVersion >= 10 && device.OSVersion <= 12.01;
+    return device.OSVersion >= 10 && device.OSVersion <= 13.0;
 }
 
 //returns whether the model and os version of the client were recognized
@@ -112,7 +112,7 @@ function sploit_init() {
     }
 
     if(!supported_osversion()) {
-        puts("iOS được hộ trợ");
+        puts("iOS 13 hộ trợ");
         return false;
     }
 
